@@ -1,3 +1,11 @@
+.font-header {
+  color: white;
+  font-size: 20px;
+}
+.font-info {
+  color: white;
+}
+
 html,body {
   font-family: 'Montserrat', sans-serif;
 }
@@ -5,11 +13,15 @@ html,body {
 .main-section {
   width: 100%;
   height: 2000px;
-  background: #fff;
+  background: #BDBDBD;
 }
 .header{
   width: 100%;
-  height: 100px;
+  height: 40px;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  background: #00695C;
 }
 
 .hello {
@@ -19,8 +31,8 @@ html,body {
 
 .main-menu {
   width: 100%;
-  height: 100px;
-  background: #004D40;
+  height: 70px;
+  background: #00695C;
   text-align: center;
   display:flex;
   justify-content:center;
@@ -37,14 +49,34 @@ html,body {
 
 .main-menu-items {
   float:left;
+  width: 150px;
+  height: 30px;
   margin: 0 30px;
   justify-content: center;
+  text-align: center;
+  align-items: center;
   display: flex;
+  border: 1px solid white;
+  border-radius: 15px;
 
 }
 
 .main-menu-items a {
   text-decoration: none;
-  color: black;
+  color: #fff;
+  font-size: 13px;
+}
 
+.main-menu-items a:hover {
+  font-size: 15px;
+}
+
+
+.main-info{
+  height: 600px;
+  width: 100%;
+  background: #00695C;
+  text-align: center;
+  justify-content: center;
+  display: flex;
 }
