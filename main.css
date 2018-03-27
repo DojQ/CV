@@ -6,7 +6,7 @@
   font-size: 20px;
   color: white;
 }
-.start {
+.starter {
   text-decoration: none;
   border: 2px solid #fff;
   width: 150px;
@@ -94,6 +94,25 @@ html,body {
   align-items: center;
   display: flex;
 }
+
+
+
+.start {
+  width: 100%;
+  height: 30px;
+  float: left;
+}
+.info {
+  width: 100%;
+  height: 30px;
+  float: left;
+}
+.skills {
+  width: 100%;
+  height: 30px;
+  float: left;
+}
+
 
 
 .main-info {
