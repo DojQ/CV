@@ -12,7 +12,7 @@
   </head>
   <body>
     <div id="start" class="start"></div>
-    <nav class="main-menu">
+    <nav class="main_menu">
       <ul class="main-menu-list">
         <li class="main-menu-items">
           <a href="#start" class="starter main-menu-items-inside">    START </a>
@@ -42,13 +42,12 @@
 
             <div class="main-info">
                 <span class="font-info">
-                <p class="header">  Dominik Borowiec </p> <br><br>
+                <p class="header">  Dominik Borowiec </p> <br>
                    wiek: 19lat  <br>
-                   miejsce urodzenia: Wrocław <br>
                    data urodzenia: 18 luty 1999rok <br>
-                   narodowosc: Polska<br>
-                   miejsce zamieszkania: Wrocław <br>
-                   stan cywilny: kawaler <br>
+                   miejsce zamieszkania: Wrocław <br><br><br>
+
+                  <p class="invite"> zapraszam na do przeglądania </p>
                 </span>
             </div>
 
@@ -153,25 +152,48 @@
        </h2>
        <article class=article_contact>
          <span class="article_title_contact">
-           możliwe opcje kontaktu ze mną:
+           Możliwe formy kontaktu ze mną:
          </span>
               <div class="contact_div">
                 <div class="contact_text_div">
-                 <span class="article_text_contact">
+                 <span class="article_subtitle_contact">
                    telefon
+                 </span>
+                <div class="article_contact_photo">
+                 <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAATgSURBVGhD7ZpRqFVFFIZ3piZqlEESFSIUJEiERpRWYj4ERWAkpqSQpkb1oPhgSKIPilpqvggq5kNCpaSoD70YlWAJBlrag6EpEWKgpCkpZan5f2tcOJz2PXvfzYweyB8+uGvdc2fmzJ5Zs2btW9zU/1A9xSixRHwn/hG/iTXiDtHRul9MF1vEGfFvF3wrbhUdo95ijFgmfhCtA/5Z8ATGin5isDgo+N1EcUPFYN4Q28UfIh74n2KHmC2GiDJNEXz2U7Ouo/qIZ8VK8aOIBw7M+irxvOgrqjRQXBIsPfZRdrGG54nfRTzwOrNepX2Ctp4yK7NY9z74n0R3Zr1KCwXtEtGy6k7xlzgrcswabfJFeDJZNULQ0YdmpRfL9pS4LO7BcVWPiJHhxzR6UPBFiEy5tEnQx6tmBRFMLoh7zUqgW8RxQXjlrMghvgBfZKNZQdsEPg7VZFovaPQZs9KLJcXSYon5KT9D0Odms4KYVA7d/mY10HhBo8vNyiMPw0+YVRSDBDZnTC8c0nMC3zqzGojEjkSP1COXFgsGSTh2earztFlF8ZDAPiF64GiirwWNMFM55GF4j1lBKwS+pWYFkT3gG25WA80VNJB080Vib5A5kLLcjUNiT9Ln92YFrRb43jGrgZgBGiCa5BLJI328YlZR3CaIlgQCD8MvCj7DCqkl9sXrYoBZIWL8KuLNl1pTBYP8yKwgzi98ZMrodvH3VWpdykjPaYBM18Xpji9XGGbWmf14M78p6DNO9XcKfC+ZVaHHBR8+ZFbQywLfu2blEfuBPh4z61oYPi38jPH9WisMew7EHzyAQ7pLXBQ5wzARij7nmxXkdx9PWocJ7F/MqqGPBX/wlllB3wh895mVXh6Gd5sV9L7At8isa/sVH5ezSnkO9JlZQcwUvlxhmEBCQOHJswIQt1L6jFP9J8Xk8ON/9YI4LNgfyK+i5wWhED0qaJTqSC55GJ5gVuj7nCAQ1HoCswQNxHcPz4GYFUQ0IarkDMM87dZxsCrwxal+lxoq+DBpO+sQsS7xsU5dGwQ+im455GGYfeDj8DD8iVk1RCTgD7ihId98RA4XJy++OAdKLU8YPacicmITSf3LtdUHgj8gViPCMDEcnyeMbEL2zn6z8sjDsI8D7RJHRa3S0ThBA1+ZFeSbj8frIkuNc6DUGi3oM86p2J9+KFbK7x7kMn4T84pgfG9fIPBNMyu9PAzXzqnKxCwwSOq0yDcfmaiHYU9hcpY7twr6YJU0ElVFGiD3d3kO5Akjj/mkYNZSljsp+lH8owhI9KRP9m0j+aF3xKwg33zxvd1TGM+BmopyK2VXyq+UYWkz5phoJGb7cxHfCzgzaDROGCcJfN0Nw+w9li2vGfzqWsXDIol889Goh2FPYeqUO33WvxAU3loHWsUckUzkVzT6mllBvHEqC8NNZr0dX4pkYhNyslJfcnk1nRyIx8/M0WmTWW9H7btHU1FQoyPOntbOu+I9QWZb9rKoK3iqWRXfJOtAOu650kxR9pkyqHFll1fT60J1hkyb/VX2+1b2ihQvlSrlZZyUkEWQEnE38Wwiu4hYZYPpLpxRvOaj4p7rFUalDoiywbXDZ51XCPyDQUeIdV822FY6YtbbiUi0VrQOnGyAg5S13jGzXkecK9zq3hbkZ9flHwFuqvNUFFcADwr4W15WjbMAAAAASUVORK5CYII=">
+               </div>
+                 <span class="article_text_contact">
+                   730478440
                  </span>
                </div>
                <div class="contact_text_div">
-                <span class="article_text_contact">
+                <span class="article_subtitle_contact">
                   facebook
+                </span>
+                <div class="article_contact_photo">
+                  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIDSURBVGhD7dq/SxdxHMfxr0ttumTNroqULRrUEDgZCP4H1dASririFFJDhhCtNedQ0CQ4SFsJCRIEKahLg0MhYv5oSH2+D0++nu/v3cfjPnfvg88LHsv3Pp8PvPh873vc3bfRIrfxEiv4jeMK/cVPvMUDtCEznXiPI2iLWvAFt9Ay3diENtka2aURXIjsRF1KxP6hH+cyB22wdRu4iijyfbN8TmR5iigz0AbUxVdEkZ9YbUBd/EcHKr9OFEF+cdUDZdjHZ7zGM4wrZqHNTboL9YBPh5hEO7LSC22NpNKLHOAeXGO2yBguE5NFduHydWqOySILuGxMFnmFtPThA5bw7dQPaGsllVpkCmlZhDbPRalFJpCW79DmuQhF8qh1kV+IT9yHSIvcYsdjY3+grZvkvUjWLmTlE7R1k8wXWYa2bpL5IlvQ1k0yXeQKXG/BTRfpgramxnuRecQ3SQNIy2M031S9gbamxnuRZlm7Ey6ICEXyCEUchCJ5hCIOQpE8QhEHoUge3ovIo0ztYNF8FpGHe9HLeO1g0XwWuY7Gu6YPfPJVZBVRhqANKNpHPEkhj460eVmeI4r8t0PejGqDrNvBNZzlJvagDbbsES5kGPJ+T5tg0TRa5g7WoU20YhvqTiQjz5NGIeeNvIzXFqvCGl7g3DnhGvlHQQ/uY7AicrG7gZQ0GicfHdsl7829RAAAAABJRU5ErkJggg==">
+               </div>
+                <span class="article_text_contact">
+                 <a href="https://www.facebook.com/dominik.borowiec.50">
+                   Domink Borowiec
+                 </a>
                 </span>
               </div>
               <div class="contact_text_div">
-               <span class="article_text_contact">
+               <span class="article_subtitle_contact">
                  poczta
+               </span>
+               <div class="article_contact_photo">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKSSURBVGhD7dhLqIxxGMfxQUgk5F4iGxIbC4qyoCQWLkmRy4osyAqdBVlZKMpKWSgbGykLO1nIQhZSUi7JQlHEwv1++f7O23/m6fW892O86f+rT70z55k553emed9nphMTExMTExPjZwbmttwIFGYpXuNXSx1F6SzEc3hP9K/8xH7kZi2WJ4fd6CV8Au9J++0bdsBmAgaSw1624QPWDN7qRe+Xe/CevF8+YT1spuEOrgzeMlERPegLtugOk0m4hfQv6Ie3WAmb2XgI/TyziHzHbtiMwzWEmX54hSWwmY+nCDO5RURvrIOwGY3LsHN/yzMsgM1ivISdKywSHIeNzt/n4c0OlceYA5sVeIP0bOkicgbDETIMp+HNNnUX02GzDh/hzVcqIhcwEjbH4M3WdRMTYbMVX+HNS+UiogeNgc0B6P3kzVdxFWNhsxc/4M0HtYrIdYyHzS7oTOfNl3EJo2CjC503m1a7iNzGFNhswGd483nOwS6Aev+dgDfraVRE7mMWbFbhHbx5zynoDw9RobPwZrM0LqINQGeTdMpuzkeQzmQ8gDefpVERldiIrORtzjox7ENWZqJKmdpFvBLzsCw57MbbnLXBboeNNthNyWE3VcrUKpJVQv/991itO0ymQluAdqMb0NXZJmywepXSu13ZMpWL5JWwM5tRJnaDlbplKhUpUyLQ9UQXsrwsgt1ggzplShepUsK6CG2rNrr26GylD3DeY6RqmVJF6pawXkAX0EcoWjeCKmUKiwxFiSZUZg9svDK5RbwS+mTWrxJBmTKZRdpSIigq4xZpW4kgr8wfRXT+b2OJIKvMyeSwl/R3qW0qEXhlcr8DbmOJwCuTmZ043GKHkP5sHxMTExMTE/MfpdP5DdPIDMQOzKvTAAAAAElFTkSuQmCC">
+              </div>
+               <span class="article_text_contact">
+                 domink12398@gmail.com
+
                </span>
              </div>
            </div>
+
+           <a href="https://icons8.com"></a>
        </article>
 
     </section>
