@@ -50,7 +50,7 @@ html,body {
   top: 0;
   right: 0;
   left: 0;
-
+  z-index: 2;
 }
 
 .first-section {
@@ -102,11 +102,6 @@ html,body {
 
 
 .start {
-  width: 100%;
-  height: 30px;
-  float: left;
-}
-.info {
   width: 100%;
   height: 30px;
   float: left;
@@ -379,9 +374,6 @@ img {
    }
    .contact_text_div {
      width: 220px;
-   }
-   .main_menu{
-     position: absolute;
    }
    .header {
      font-size: 18px;
